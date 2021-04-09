@@ -38,8 +38,8 @@ footer{
     border-radius: 20px;
     margin-bottom: 20px;
     background-color: white;
-    width: 90%;
-    margin-left: 5%;
+    width: 96%;
+    margin-left: 2%;
 }
 #explorer{
     color: white;
@@ -51,7 +51,7 @@ footer{
     justify-content: center;
 }
 .button-menu{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 15px 15px 15px 15px;
     margin-left: auto;
     margin-right: auto;
     margin-top:2%;
@@ -60,15 +60,19 @@ footer{
     background-color: #f5edff;
 }
 #reservez{
-    width: 300px;
+    width: 165px;
     margin-left: auto;
     margin-right: auto;
+    FONT-SIZE: 0.9em;
+    TEXT-ALIGN: CENTER;
 }
 #decouvrez{
-    font-weight:100;
-    width: auto;
-    display: flex;
-    justify-content: center;
+    font-weight: 100;
+    font-size: 1em;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 a{
     text-decoration:none;
@@ -99,6 +103,10 @@ ul{
     margin-left: 20px;
     margin-top: 4%;
 }
+#ohmyfoodlogo
+{
+    font-size: 1em;
+}
 #containersection4{
     display: flex;
     margin-left:auto;
@@ -126,8 +134,8 @@ ul{
     margin-left: 20px;
 }
 #container-section1{
-    width: 200px;
-    display: flex   ;
+     width: 134px;
+     display: flex;
 }
 #block-logo{
     display: flex;
@@ -151,6 +159,9 @@ ul{
 .sub_tittle{
     margin-top: -17px;
 }
+.fa-map-marker-alt:before {
+    color: black;
+}
 
 @media (min-width : 1025px){
 
@@ -159,10 +170,14 @@ ul{
         flex-direction: row;
     }
     .button-menu{
-        width: 300px;
+        width: 30%;
     }
     #containersection4{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .itemrestaurant{
+        width: 47%;
     }
 }
